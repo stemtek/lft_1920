@@ -1,0 +1,7 @@
+==(*() while print &&(ss)*
+print(*=9)
+<;<(print);
+cond a3 || b;
+a__;
+_d
+5

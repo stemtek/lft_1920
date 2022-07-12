@@ -1,0 +1,12 @@
+==(*() while print &&(ss)*
+print(*=9)
+<;<(print);
+cond a3 || b;
+aZ__;
+_d;
+//ciao
+/ciao
+/* ciao a tutti */;
+*c
+//ciao questo è un commento
+/questo no

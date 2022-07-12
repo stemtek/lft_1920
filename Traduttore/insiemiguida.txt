@@ -1,0 +1,30 @@
+INSIEMI GUIDA:
+
+PROG -> GUIDA(PROG) -> {(}
+
+STATLIST -> GUIDA(STATLIST) -> {(}
+
+STATLISTP -> GUIDA(STATLISTP) -> STAT STATLISTP -> {(}
+			                  -> EPS            -> {)}
+							  -> {(,)}
+
+STAT -> GUIDA(STAT) -> {(}
+
+STATP -> GUIDA(STATP) -> {=,cond,while,do,print,read}
+
+ELSEOPT -> GUIDA(ELSEOPT) -> {(}
+		   GUIDA (ELSEOPT) EPS -> {)}
+		   -> {(,)}
+
+BEXPR -> GUIDA(BEXPR) -> {(}
+
+BEXPRP -> GUIDA(BEXPRP) -> RELOP
+
+EXPR -> GUIDA(EXPR) -> {NUM,ID,(}
+
+EXPRP -> GUIDA(EXPRP) -> {+,-,*,/}
+
+EXPRLIST -> GUIDA(EXPRLIST) -> {NUM,ID,)}
+
+EXPRLISTP -> GUIDA(EXPRLISTP) -> (EXPR) -> {NUM,ID,(}
+							  -> EPS    -> {)}
